@@ -58,8 +58,9 @@ def clustering_data(prep_data, pca_data):
 
 @task
 def load_data():
-
-
+    pass
+    
+    
 
 @flow(name="Customer Clustering pipeline")
 def generate_clusters():
